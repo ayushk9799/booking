@@ -1,0 +1,124 @@
+/* Basic styling */
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    /* overflow-x: hidden; */
+}
+.navigation
+{
+    position:sticky;
+    top:0px;
+}
+.contact{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    color:white;
+    background-color: rgb(161, 149, 204);
+    width:100%;
+    padding:3px;
+
+    /* overflow-x: hidden; */
+}
+.menu{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color:#021453;
+    width:100%;
+    overflow:hidden;
+     padding:5px; 
+    /* position:sticky;
+    top:27.6px; */
+}
+a{
+    display:flex;
+    justify-content: center;
+    padding:5px;
+    font-size:20px;
+    color:white;
+
+}
+
+a:hover{
+font-weight: bold;
+}
+.hovered {
+    display: none; 
+    flex-direction: column;
+    position:absolute;
+    width:20%;
+    z-index:1;
+    box-shadow: 1px 1px 10px 5px rgb(184, 181, 181);
+}
+.hoveredmore {
+    display: none; 
+    flex-direction: column;
+    position:absolute;
+    width:20%;
+    z-index:1;
+    box-shadow: 1px 1px 10px 5px rgb(184, 181, 181);
+}
+.icon
+{
+    display:none;
+    /* align-items: center;
+    justify-content: center; */ 
+}
+.hovered a
+  {
+   display:flex;
+   justify-content: center;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom:2px;
+    border-bottom: 1px solid white;
+    background-color: rgb(205, 209, 212);
+  }
+  .hoveredmore a
+  {
+   display:flex;
+   justify-content: center;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom:2px;
+    border-bottom: 1px solid white;
+    background-color: rgb(205, 209, 212);
+  }
+.navbarbutton{
+    display:none;
+}
+.services:hover .hovered{
+   display:block;
+}
+.more:hover .hoveredmore{
+    display:block;
+}
+ @media screen and (max-width:470px)
+ {
+    .menu a{
+        display:none;
+    }
+    .menu .hovered{
+        display: none;
+    }
+    .icon{
+        display:block;
+    }
+    /* .three
+    {
+        display:block;
+    } */
+   .navbarbutton
+   {
+    display: block;
+    background-color: #021453;
+    border:none;
+   }
+
+ }
+

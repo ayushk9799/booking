@@ -1,0 +1,17 @@
+.booking
+{
+    display:flex;
+    justify-content: center;
+    padding:5px;
+    
+}
+.bookButton
+{
+    padding:10px;
+    border-radius: 3px;
+    font-weight: bold;
+    background:#021453;
+    color: white;
+    border-radius: 10px;
+
+}

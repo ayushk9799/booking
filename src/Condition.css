@@ -1,0 +1,83 @@
+.aboutcondition{
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
+    border-bottom: thick double black;
+    margin-top:10px;
+    margin-left:25%;
+    margin-right:25%;
+
+    
+}
+.aboutcondition:hover{
+    cursor:pointer;
+}
+.arrowimg
+{
+    display:flex;
+    padding:10px;
+    align-items: center;
+}
+.arrow
+{
+    width:10px;
+    height:10px;
+}
+
+.condition{
+    display:grid;
+    grid-template-rows:auto auto;
+
+}
+.overactivebladderimg
+{
+    width:100%;
+    height:200px;
+
+}
+.conditions
+{
+    padding:20px;
+}
+.explained{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.descriptors
+{
+    display:flex;
+     justify-content: center;
+   
+     /* border:1px solid red; */
+}
+@media screen and (min-width:470px){
+
+.overactivebladderimg
+{
+    width:200px;
+    height:200px;
+}
+.overactivebladder{
+    display: flex;
+    justify-content: center;
+}
+.explained
+{
+    margin-left:25%;
+    margin-right: 25%;
+}
+
+}
+
+.explained >p >ul{
+    line-height: 2;
+}
+.explained >p{
+
+    line-height: 1.4;
+}
+h3{
+    margin-bottom: 5px;
+}

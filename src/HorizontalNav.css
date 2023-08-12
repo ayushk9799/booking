@@ -1,0 +1,17 @@
+.hmenu
+{    position:fixed;
+    background-color: black;
+    width:80x;
+    z-index:100;
+    opacity: 0.9;
+}
+
+.hlist
+{
+    color:white;
+}
+.hlist li{
+    margin:10px;
+    padding:10px;
+    color:white;
+}
